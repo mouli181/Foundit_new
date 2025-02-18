@@ -1,0 +1,198 @@
+.login {
+    header {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        height: fit-content;
+        padding: 10px 20px;
+
+        img {
+            height: 14px;
+        }
+
+        button {
+            background-color: #fc5912;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            font-size: 10px;
+            padding: 7px 15px;
+            height: fit-content;
+            width: fit-content;
+            font-weight: bold;
+            cursor:pointer;
+        }
+    }
+        .border{
+        }
+    .mainContent {
+        display: flex;
+
+        .leftSide {
+            flex: 1;
+            height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            img {
+                height: 200px;
+            }
+
+            p {
+                font-size: 12px;
+                color: gray;
+                width: 300px;
+                text-align: center;
+            }
+        }
+
+        .rightSide {
+            flex: 1;
+
+            h5 {
+                font-size: 10px;
+                font-weight: 500;
+                text-align: end;
+                border-bottom: 1px solid rgb(232, 232, 232);
+                padding: 20px 0;
+
+                span {
+                    color: #a000fd;
+                    cursor:pointer;
+                }
+            }
+
+            .loginForm {
+                h4 {
+                    font-size: 14px;
+                    font-weight: 500;
+                    height: fit-content;
+                    margin: 10px 0;
+                }
+
+                .oauth {
+                    display: flex;
+
+                    button {
+                        background-color: transparent;
+                        border: none;
+                        font-size: 10px;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+
+                        img {
+                            height: 14px;
+                        }
+                    }
+                }
+
+                .or {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    hr {
+                        width: 90px;
+                        background-color: rgb(235, 235, 235);
+                        border: none;
+                        height: 1px;
+                        margin: 0;
+                    }
+                }
+
+                .inputs input {
+                    height: 25px;
+                    width: 250px;
+                    border-radius: 5px;
+                    border-width: 1px;
+                    font-size: 10px;
+                    background-color: #ffffff;
+                }
+
+                .forget p {
+                    color: darkorchid;
+                    font-size: 12px;
+                    padding-left: 230px;
+                    cursor:pointer;
+                }
+
+                .forget .blog {
+                    height: 40px;
+                    width: 270px;
+                    border-radius: 5px;
+                    background-color: #6E00BE;
+                    color: #f4f4f4;
+                    font-size: 10px;
+                    border: none;
+                    cursor:pointer;
+
+                }
+                .otp{
+                    color: darkorchid;
+                    font-size: 12px;
+                    padding-left: 100px;
+                    cursor:pointer;
+                }
+
+            }
+
+            .gplay {
+                    height: 100px;
+                    width: 80%;
+                    border: 1px solid;
+                    border-color: aqua;
+                    background-color: #f4f4f4;
+                    border: none;
+                    border-radius: 10px;
+
+                span {
+                    font-size: 11px;
+                    width: 150px;
+                    padding-left: 40px;
+                    color: #444255;
+                }
+                .pay{
+                    height: 30px;
+                    width: 100px;
+                    padding-left: 70px;
+                    padding-top: 30px;
+                }
+                .store{
+                      height: 30px;
+                      width: 120px;
+                      padding-left: 40px;
+                      padding-top: 30px;
+                      margin-top: 5px;   
+                }
+            }
+        }
+    }
+    .images{
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        align-items: center;
+        select{
+            height: 60%;
+            font-size: 12px;
+        }
+        .contact{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            img{
+                height: 20px;
+               
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}

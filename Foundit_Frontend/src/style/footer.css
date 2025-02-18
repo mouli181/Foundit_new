@@ -1,0 +1,44 @@
+.one{
+    color: aliceblue;
+    background-color:rgb(66, 37, 37);
+    border: none;
+    list-style: none;
+}
+.hr{
+    width: 1px;
+    width: 100%;
+    background-color: rgb(44, 35, 35);
+}
+#location{
+    margin-right: 10px;
+}
+.imgge{
+    padding-right: 50px;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+.call{
+    padding-right: 50px;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+.mail{
+    padding-right: 50px;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+.downlod{
+    padding-right: 50px;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+.stay{
+    padding-right: 50px;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}

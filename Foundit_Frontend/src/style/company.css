@@ -1,0 +1,38 @@
+.flex{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+h4{
+    height: 60px;
+    width: 120px;
+    color: #000;
+    padding-right: 70px;
+}
+.chub{
+    height: 80px;
+    width: 60px;
+}
+.cong{
+    height: 80px;
+    width: 80px;
+}
+.hdfc{
+    height: 80px;
+    width: 80px;
+}
+.kpmg{
+    height: 60px;
+    width: 60px;
+}
+.tss{
+    height: 60px;
+    width: 60px;
+}
+.flex .linee{
+    height: 100px;
+    width: 1px;
+    background-color: rgb(199, 199, 199);
+    margin-right: 15px;
+}
